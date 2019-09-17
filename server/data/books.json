@@ -1,0 +1,50 @@
+[
+    {
+        "bookID": 1,
+        "title": "Goodnight Moon",
+        "author": "Margaret Wise Brown",
+        "publicationYear": "1953"
+    },
+    {
+        "bookID": 2,
+        "title": "Winnie-the-Pooh",
+        "author": "A. A. Milne",
+        "publicationYear": "1926"
+    },
+    {
+        "bookID": 4,
+        "title": "The Hobbit",
+        "author": "J. R. R. Tolkien",
+        "publicationYear": "1937"
+    },
+    {
+        "bookID": 6,
+        "title": "Alice's Adventures in Wonderland",
+        "author": "Lewis Carroll",
+        "publicationYear": "1865"
+    },
+    {
+        "bookID": 7,
+        "title": "stackUp",
+        "author": "Drey Wesson",
+        "publicationYear": "2019"
+    },
+    {
+        "bookID": 8,
+        "title": "",
+        "author": "",
+        "publicationYear": ""
+    },
+    {
+        "bookID": 9,
+        "title": "mark zamoyta",
+        "author": "bgdgdgdg",
+        "publicationYear": "1424"
+    },
+    {
+        "bookID": 10,
+        "title": "mark zamoyta",
+        "author": "ggggg",
+        "publicationYear": "2019"
+    }
+]
