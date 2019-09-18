@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
-import { Reader } from "app/models/reader";
+import { Reader } from 'app/models/reader';
 import { DataService } from 'app/core/data.service';
 import { BadgeService } from 'app/services/badge.service';
 
@@ -21,7 +21,8 @@ export class EditReaderComponent implements OnInit {
               private badgeService: BadgeService) { }
 
   ngOnInit() {
-    let readerID: number = parseInt(this.route.snapshot.params['id']);
+    // tslint:disable-next-line: radix
+    const readerID: number = parseInt(this.route.snapshot.params['id']);
     this.selectedReader = this.dataService.getReaderById(readerID);
     this.currentBadge = this.badgeService.getReaderBadge(this.selectedReader.totalMinutesRead);
   }

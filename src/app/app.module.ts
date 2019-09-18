@@ -11,6 +11,10 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { EditBookComponent } from './edit-book/edit-book.component';
 import { EditReaderComponent } from './edit-reader/edit-reader.component';
 import { CoreModule } from './core/core.module';
+import { LoggerService } from './services/logger.service';
+import { DataService } from './services/data.service';
+import { PlainLoggerService } from './services/plain-logger.service';
+import { dataServiceFactory } from './services/data.service.factory';
 
 
 @NgModule({
@@ -27,7 +31,17 @@ import { CoreModule } from './core/core.module';
     AppRoutingModule,
     FormsModule,
     CoreModule,
-    HttpClientModule
+    HttpClientModule,
+  ],
+  providers: [
+    DataService,
+    LoggerService
+    // { provide: LoggerService, useClass: PlainLoggerService },
+    // {provide: LoggerService, useValue: {
+    //   log: (message) => console.log(`MESSAGE: ${message}`),
+    //   err: (err) => console.log(`PROBLEM: ${err}`)
+    // }},
+    // { provide: DataService, useFactory: dataServiceFactory, deps: [LoggerService] },
   ],
   bootstrap: [AppComponent]
 })

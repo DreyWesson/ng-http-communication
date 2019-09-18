@@ -596,8 +596,8 @@ if(false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/dreyWesson/Desktop/macBrain/atoms/angular-http-communication/02/demos/demos/Before/booktracker/node_modules/bootstrap/dist/css/bootstrap.min.css */"./node_modules/bootstrap/dist/css/bootstrap.min.css");
-module.exports = __webpack_require__(/*! /Users/dreyWesson/Desktop/macBrain/atoms/angular-http-communication/02/demos/demos/Before/booktracker/src/styles.css */"./src/styles.css");
+__webpack_require__(/*! /Users/dreyWesson/Desktop/macBrain/atoms/angular-services/booktrackers/node_modules/bootstrap/dist/css/bootstrap.min.css */"./node_modules/bootstrap/dist/css/bootstrap.min.css");
+module.exports = __webpack_require__(/*! /Users/dreyWesson/Desktop/macBrain/atoms/angular-services/booktrackers/src/styles.css */"./src/styles.css");
 
 
 /***/ })
